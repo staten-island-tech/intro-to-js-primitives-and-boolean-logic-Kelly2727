@@ -146,6 +146,7 @@ names.forEach(name => console.log(name)); */
 // console.log(add(...numbers));
 /*  */
 let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+console.log(students.some(name=> name == "Savva" || name == "Alan"));
 
 ///filter out all students whose names contain <5 characters
 /* const newArr = students
